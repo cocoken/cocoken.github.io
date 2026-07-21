@@ -352,9 +352,15 @@ td {
     object-fit: cover;
 }
 
-.activity-card h4 {
-    margin: 15px 0 5px;
+.activity-card h2 {
+    all: unset;
+    display: block;
     font-size: 20px;
+    font-family: "Zen Maru Gothic", sans-serif;
+    font-weight: 700;
+    color: #333333;
+    text-align: center;
+    margin: 10px 0;
 }
 
 .activity-card .date {
@@ -418,16 +424,15 @@ td {
 
 /* カード本体（活動カードと同じサイズ） */
 .member-card {
-    background: linear-gradient(
-        to bottom,
-        #FBDCD9 0%,
-        #FCE5E3 50%,
-        #FFFFFF 100%
-    );
+    background: linear-gradient(to bottom,
+            #FBDCD9 0%,
+            #FCE5E3 50%,
+            #FFFFFF 100%);
     width: 300px;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 0 15px rgba(206, 128, 136, 0.3); /* ピンクぼかし影 */
+    box-shadow: 0 0 15px rgba(206, 128, 136, 0.3);
+    /* ピンクぼかし影 */
     text-align: center;
     padding-bottom: 20px;
 }
@@ -444,7 +449,7 @@ td {
 }
 
 /* 名前 */
-.member-card h4 {
+.member-card h2 {
     margin: 10px 0;
     font-size: 20px;
     color: #990066;
@@ -457,6 +462,16 @@ td {
     text-align: left;
     line-height: 1.8;
     font-size: 95%;
+}
+
+
+.member-card h2 {
+    border: none;
+    padding-left: 0;
+    font-size: 20px;
+    color: #990066;
+    margin: 10px 0;
+    text-align: center;
 }
 
 
